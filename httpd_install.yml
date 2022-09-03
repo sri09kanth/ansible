@@ -1,5 +1,5 @@
 ---
-- name: installing httpd
+- name: installing httpd    //Apache tomcat
   hosts: webservers
   become: true
   tasks: 
