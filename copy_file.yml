@@ -1,6 +1,6 @@
 ---
 - name: Playbook to copy a file
-- hosts: 172.168.10.2
+- hosts: all
   tasks: 
    - name: copy a file 
    - win_copy:  
