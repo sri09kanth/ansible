@@ -1,6 +1,6 @@
 ---
 - name: installing httpd    //Apache tomcat
-  hosts: webservers
+  hosts: testinventory
   become: true
   tasks: 
   - name: Installing httpd package 
